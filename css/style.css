@@ -82,4 +82,33 @@
     background-color: thistle;
 }
 
+.sec_title{
+    margin-top: 4rem;
+    height: 5rem;
+    background-color: chocolate;
+}
+
+.sec_text{
+    margin-top: 2rem;
+    height: 7rem;
+    background-color: grey;
+}
+
+.hero_img{
+    margin-top: 2rem;
+    height: 350px;
+    background-color: brown;
+}
+
+.text{
+    margin-top: 3rem;
+    height: 2rem;
+    background-color: blanchedalmond;
+}
+
+.sec_button{
+    margin-top: 1rem;
+    height: 2rem;
+    background-color: blanchedalmond;
+}
 /* footer */

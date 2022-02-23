@@ -103,10 +103,30 @@
 }
 
 .head_button{
-    margin-top: 1rem;
-    height: 4rem;
-    background-color: blueviolet;
+    margin-top: 1.5rem;
+    text-align: center;
 }
+
+.button_black,
+.button_white{
+    border-style: none;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-right: 1rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button_white{
+    background-color: white;
+    padding: 0.75rem;
+}
+
+.button_black{
+    background-color: black;
+    color: white;
+}
+
 /* main */
 
 #talk{

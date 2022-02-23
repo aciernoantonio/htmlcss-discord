@@ -143,14 +143,17 @@
     float: left;
 }
 
-#find{
+.col_75_relative{
+    margin-top: 6rem;
+    width: 75%;
+    float: left;
     position: relative;
 }
 
-.absolute{
+.img_right{
     position: absolute;
     top: 0;
-    left: 42%;
+    right: 0;
 }
 
 .col_25{
@@ -194,29 +197,35 @@
     float: left;
 }
 
+.content{
+    text-align: center;
+}
+
 .sec_title{
     margin-top: 4rem;
-    height: 5rem;
-    background-color: chocolate;
+    font-size: 30px;
 }
 
 .sec_text{
     margin-top: 2rem;
-    height: 7rem;
-    background-color: grey;
+    font-size: 22px;
 }
 
 .hero_img{
-    margin-top: 2rem;
-    height: 350px;
-    background-color: brown;
+    /* margin-top: 0.5rem; */
+    
 }
 
-.text{
-    margin-top: 3rem;
-    height: 2rem;
-    background-color: blanchedalmond;
+.download{
+    width: 50%;
+    margin: auto;
 }
+
+/* .text{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+} */
 
 .sec_button{
     margin-top: 1rem;

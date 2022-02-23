@@ -129,10 +129,6 @@
 
 /* main */
 
-#talk{
-    background-color: aqua;
-}
-
 .row::after{
     content: "";
     display: table;
@@ -144,17 +140,24 @@
 .col_75{
     margin-top: 6rem;
     width: 75%;
-    height: 400px;
-    background-color: cadetblue;
     float: left;
 }
 
 .col_25{
     margin-top: 6rem;
     width: 25%;
-    height: 500px;
-    background-color: burlywood;
     float: left;
+}
+
+.col_25 > h2{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.col_25 > p{
+    line-height: 1.6;
 }
 
 .col_35{

@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Utility */
@@ -20,13 +21,62 @@
 /* header */
 
 #site_header{
-    height: 80vh;
-    background-color: cornflowerblue;
+    height: 70vh;
+}
+
+.container{
+    background-image: url(../img/jumbo.png);
+    height: 70vh;
+    background-size: cover;
+    background-position: top;
+}
+
+.header_logo,
+.navbar,
+.login{
+    margin-top: 2rem;
+}
+
+.header_logo{
+    width: 15%;
+    float: left;
 }
 
 .navbar{
-    height: 3rem;
-    background-color: azure;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.navbar > ul >li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 2rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    
+}
+
+.login{
+    width: 15%;
+    float: left;
+    position: relative;
+}
+
+.login > button{
+    color: #393D40;
+    text-align: center;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 0.75rem;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 
 .head_title{
